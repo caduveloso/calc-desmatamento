@@ -80,7 +80,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row mx-0 md:mx-auto pt-0 justify-between items-center gap-10 md:gap-0">
           <div className="w-full md:w-1/2 p-10 md:border-r-8 border-black">
-            <div className="mb-4 prose prose-md">
+            <div className="mb-4 prose prose-lg">
               <p>
                 A Calculadora de Impactos do Desmatamento pode ser utilizada
                 para três finalidades principais:
