@@ -84,7 +84,7 @@ export default function Calculate() {
 
         <div className="flex flex-col md:flex-row h-auto mx-0 md:mx-auto justify-between border-b-8 border-black items-start gap-10 md:gap-0">
           <div className="flex w-full md:w-2/3 pb-44 md:border-r-8 md:h-auto border-black">
-            <div className="mb-0 text-xl">
+            <div className="mb-0 text-xl prose">
               <h3 className="p-4 font-bold">Guia de uso</h3>
               <Accordion>
                 <AccordionSummary
@@ -98,9 +98,9 @@ export default function Calculate() {
                   <Typography variant="body2" component="div">
                     <span>Você pode incluir algumas informações sobre o contexto da sua pesquisa para que a calculadora estime o valor dos impactos de forma mais precisa. <br/> A localização afeta variáveis como:</span>
                     <ul className="flex flex-col gap-1 my-4">
-                      <li>&#8226; Densidade de carbono por hectare </li>
-                      <li>&#8226; Custo do frete para restauração</li>
-                      <li>&#8226;  Riqueza de espécies</li>
+                      <li>Densidade de carbono por hectare </li>
+                      <li>Custo do frete para restauração</li>
+                      <li>Riqueza de espécies</li>
                     </ul>
                     <span>Caso não tenha informações específicas, você ainda pode realizar a pesquisa. Nesse caso, serão incluídos automaticamente valores médios de contexto e impacto. </span>
                   </Typography>
@@ -118,7 +118,9 @@ export default function Calculate() {
                   <Typography variant="body2">
                     <span>Uma Área de Preservação Permanente (APP) é uma área protegida, coberta ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas, conforme definição da Lei n. 12.651/2012.</span>
                     <br/>
+                    <br/>
                     <span>Com o propósito de estabelecer uma ideia de equivalência ecológica, a calculadora de desmatamento utiliza um multiplicador de 3,8 vezes o valor do dano quando a área analisada corresponde a uma Área de Preservação Permanente (APP), considerando sua extrema importância (Gasparinetti et al, 2017).</span>
+                    <br/>
                     <br/>
                     <span className="leading-4"><small> Gasparinetti, P.; Burner, A.; Vilela, T (2017) Definição de níveis de equivalência ecológica para a lei de compensação florestal do DF segundo o método de experimento de escolha. Conservação Estratégica. Série Técnica- Edição 51.</small></span>
                   </Typography>
@@ -135,6 +137,7 @@ export default function Calculate() {
                 <AccordionDetails>
                   <Typography variant="body2">
                     <span>As Áreas Prioritárias para a Conservação, Utilização Sustentável e Repartição dos Benefícios da Biodiversidade são um instrumento de política pública para apoiar o planejamento e implementação de ações como a criação de unidades de conservação, licenciamento, fiscalização e fomento ao uso sustentável do solo. As regras para a identificação de tais áreas foram instituídas pelo Decreto nº 5092 de 21/05/2004 do Ministério do Meio Ambiente.</span>
+                    <br/>
                     <br/>
                     <span>Com o propósito de estabelecer uma ideia de equivalência ecológica, a calculadora de desmatamento utiliza um multiplicador de 1,8 vezes o valor do dano quando a área analisada corresponde a uma área prioritária para conservação</span>
                   </Typography>
@@ -154,6 +157,7 @@ export default function Calculate() {
                       Uma floresta preservada possui inúmeros atrativos naturais, como trilhas, cachoeiras, observação da fauna e flora, atividades de ecoturismo e contato direto com a natureza exuberante. No entanto, quando ocorre o desmatamento, a destruição do ecossistema e a perda de biodiversidade diminuem significativamente as oportunidades recreativas e turísticas que a área poderia oferecer. Além disso, a degradação do ecossistema também pode afetar negativamente as comunidades locais e populações indígenas que dependem da floresta para atividades culturais e tradicionais, restringindo suas possibilidades recreativas e reduzindo seu bem-estar geral.
                     </span>
                     <br/>
+                    <br/>
                     <span>Na valoração econômica, é crucial levar em conta o contexto do território. Em uma região com potencial de recreação, a calculadora considera os valores de recreação perdidos devido ao desmatamento, buscando quantificar os ganhos econômicos subtraídos pela supressão vegetal. Por outro lado, em áreas desmatadas isoladas, sem potencial de recreação, tais benefícios não serão contabilizados na calculadora.</span>
                   </Typography>
                 </AccordionDetails>
@@ -171,6 +175,7 @@ export default function Calculate() {
                     <span>
                       O Código Florestal Brasileiro (Lei 12.651/2012) define sob quais condições o desmatamento pode ou não acontecer no Brasil. Para que o desmatamento seja considerado legal, é necessário que se obtenha uma autorização dos órgãos competentes. Nas propriedades rurais, por exemplo, o processo de autorização ocorre a partir do Cadastro Ambiental Rural (CAR), um registro público eletrônico, obrigatório para todos os imóveis rurais do país. É por meio do CAR que se obtém o mapa da propriedade indicando todas as partes que a compõem, inclusive aquelas que não podem ser desmatadas, como áreas de Reserva Legal (RL) e Áreas de Proteção Permanente (APP). Além dessas, Unidades de Conservação (UC) e Terras Indígenas (TI) também não podem sofrer desflorestação, tornando a atividade nessas terras, ilegal.
                     </span>
+                    <br/>
                     <br/>
                     <span>A legalidade do desmatamento significa que o custo de restauração não será contabilizado, pois não haverá a obrigação legal de restauro. Enquanto isso, todos os custos imputados na calculadora serão considerados no caso de ilegalidade do desmatamento</span>
                   </Typography>
