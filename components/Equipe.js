@@ -36,7 +36,7 @@ export default function Calculate() {
           Equipe
         </h1>
 
-        <div className="pl-10 pt-10 prose prose-sm md:prose-md">
+        <div className="pl-10 pt-10 prose prose-sm md:prose-lg">
         
           <div>
             <strong>Concepção e Coordenação Técnica</strong>

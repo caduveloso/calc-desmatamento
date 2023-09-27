@@ -35,7 +35,7 @@ export default function Calculate() {
           Sobre
         </h1>
 
-        <div className="pl-10 pt-10 prose prose-sm md:prose-md">
+        <div className="pl-10 pt-10 prose prose-sm md:prose-lg">
           <h2>O que é</h2>
           <p>
             A Calculadora de Impactos do Desmatamento é uma ferramenta de valoração dos danos sociais e ambientais causados pelo desflorestamento da Amazônia. A ferramenta utiliza uma fórmula econômica que relaciona os efeitos esperados no ambiente e na sociedade com variáveis como a região analisada, a legalidade do desmatamento e a prioridade de conservação da área. 

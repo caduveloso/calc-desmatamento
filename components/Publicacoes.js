@@ -36,7 +36,7 @@ export default function Calculate() {
           Publicações
         </h1>
 
-        <div className="pl-10 pt-10 prose prose-sm md:prose-md">
+        <div className="pl-10 pt-10 prose prose-sm md:prose-lg">
         
         <h2>Relatório metodológico</h2>
         <p>

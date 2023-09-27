@@ -36,7 +36,7 @@ export default function Calculate() {
           Metodologia
         </h1>
 
-        <div className="pl-10 pt-10 prose prose-sm md:prose-md">
+        <div className="pl-10 pt-10 prose prose-sm md:prose-lg">
         <h2>Resumo</h2>
         <p>
           A metodologia para valoração dos impactos socioambientais do desmatamento baseia-se no conceito de que o valor é uma medida de bem‐estar definida socialmente por meio da sua importância relativa para um conjunto de indivíduos. Ou seja, o valor é relativo, uma vez que se relaciona não apenas com as características do objeto em questão, mas também com o contexto no qual se está inserido. Depende de sua escassez relativa (oferta) e da pressão pelo uso dos recursos disponíveis (demanda), como demonstra a figura abaixo:
