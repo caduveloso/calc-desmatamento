@@ -41,8 +41,8 @@ export default function Calculate() {
         >
           <div className="flex mx-auto items-center border-b-0 border-black">
             <div className="flex mx-auto items-center border-b-8 border-black">
-              <div className="flex flex-col lg:flex-row w-full items-center justify-between text-white pt-16 lg:pt-48 pb-10 px-4 lg:px-10 lg:pb-40 gap-10 lg:gap-0">
-                <div className="text-lg lg:text-sm font-light text-left mb-0 pt-0 lg:w-1/2">
+              <div className="flex flex-col lg:flex-row w-full items-center justify-between text-white pt-16 lg:pt-16 pb-10 px-4 lg:px-10 lg:pb-10 gap-10 lg:gap-0">
+                <div className="text-lg font-light text-left mb-0 pt-0 lg:w-1/2">
                   A{" "}
                   <span className="font-bold">
                     Calculadora de Impactos do Desmatamento
@@ -82,8 +82,8 @@ export default function Calculate() {
           Calculadora
         </h1>
 
-        <div className="flex flex-col md:flex-row mx-0 md:mx-auto justify-between border-b-8 border-black items-start gap-10 md:gap-0">
-          <div className="flex w-full md:w-2/3 p-0 md:border-r-8 md:h-screen border-black">
+        <div className="flex flex-col md:flex-row h-auto mx-0 md:mx-auto justify-between border-b-8 border-black items-start gap-10 md:gap-0">
+          <div className="flex w-full md:w-2/3 pb-44 md:border-r-8 md:h-auto border-black">
             <div className="mb-0 text-xl">
               <h3 className="p-4 font-bold">Guia de uso</h3>
               <Accordion>
