@@ -88,15 +88,15 @@ export default function Home() {
               <div className="mt-4">
                 <ul className="flex flex-col gap-6 pl-4 border-l-0 border-black">
                   <li>
-                    1. Estimar valores de danos ambientais para apoiar a
+                    Estimar valores de danos ambientais para apoiar a
                     definição de compensações e indenizações;
                   </li>
                   <li>
-                    2. Estimar níveis eficientes de investimentos para
+                    Estimar níveis eficientes de investimentos para
                     planejamento e prevenção de impactos;
                   </li>
                   <li>
-                    3. Estimar receitas potenciais que o Estado poderia ter com
+                    Estimar receitas potenciais que o Estado poderia ter com
                     seus ativos florestais.
                   </li>
                 </ul>
@@ -132,7 +132,7 @@ export default function Home() {
                     Restauração
                   </div>
                 </div>
-                <div className="text-left px-6 mx-auto prose prose-md mt-4">
+                <div className="text-left px-6 mx-auto prose prose-lg mt-4">
                   Refere-se aos gastos necessários para implementar os métodos
                   necessários para restaurar o meio ambiente e promover o
                   bem-estar humano que foi afetado.
@@ -146,7 +146,7 @@ export default function Home() {
                     Serviços Ecossistêmicos
                   </div>
                 </div>
-                <div className="text-left px-6 mx-auto prose prose-md mt-4 mb-8">
+                <div className="text-left px-6 mx-auto prose prose-lg mt-4 mb-8">
                   As consequências do desmatamento incluem a perda de vários
                   benefícios, tanto econômicos quanto não econômicos. Essas
                   perdas são, primeiramente, calculadas com base nas opções
