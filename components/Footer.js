@@ -9,43 +9,43 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-0 p-10 text-xs tracking-widest font-semibold uppercase text-gray-900 text-center">
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Calculadora</Link>
+              <Link href="/calculadora">Calculadora</Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Sobre</Link>
+              <Link href="/sobre">Sobre</Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Guia de uso</Link>
+              <Link href="/guias-de-uso">Guia de uso</Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Metodologia </Link>
+              <Link href="/metodologia">Metodologia </Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Publicações</Link>
+              <Link href="/publicacoes">Publicações</Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Equipe </Link>
+              <Link href="/equipe">Equipe </Link>
             </div>
           </div>
 
           <div className="flex">
             <div className="hover:underline underline-offset-8 hover:text-black">
-              <Link href="/">Contato</Link>
+              <Link href="/contato">Contato</Link>
             </div>
           </div>
         </div>

@@ -40,10 +40,10 @@ export default function Navbar() {
               <Link href="/sobre">Sobre</Link>
             </li>
             <li className="hover:underline underline-offset-8 hover:text-white">
-              <Link href="/">Equipe</Link>
+              <Link href="/equipe">Equipe</Link>
             </li>
             <li className="hover:underline underline-offset-8 hover:text-white">
-              <Link href="/">Contato</Link>
+              <Link href="/contato">Contato</Link>
             </li>
           </ul>
         </div>

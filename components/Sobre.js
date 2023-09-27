@@ -14,6 +14,7 @@ import FormControl from "@mui/material/FormControl"
 import InputLabel from "@mui/material/InputLabel"
 import Select from "@mui/material/Select"
 import MenuItem from "@mui/material/MenuItem"
+import Header2 from "./Header2"
 
 export default function Calculate() {
 
@@ -28,55 +29,13 @@ export default function Calculate() {
       </Head>
 
       <div className="-mt-40 pb-10 border-b-8 border-black">
-        <div
-          className="pt-32 bg-cover bg-center px-5 lg:px-0 bg-black"
-          //style={{ backgroundImage: `url("/images/test1.png")` }}
-        >
-          <div className="flex mx-auto items-center border-b-0 border-black">
-            <div className="flex mx-auto items-center border-b-8 border-black">
-              <div className="flex flex-col lg:flex-row w-full items-center justify-between text-white pt-16 lg:pt-16 pb-10 px-4 lg:px-10 lg:pb-10 gap-10 lg:gap-0">
-                <div className="text-lg font-light text-left mb-0 pt-0 lg:w-1/2">
-                  A{" "}
-                  <span className="font-bold">
-                    Calculadora de Impactos do Desmatamento
-                  </span>{" "}
-                  é uma ferramenta de valoração dos danos sociais e ambientais
-                  causados pelo desmatamento na Amazônia
-                </div>
-                <div className="hidden mx-auto gap-8">
-                  <Button
-                    className="bg-green-400 hover:bg-green-100 py-4 px-8 text-green-900 font-bold"
-                    variant="contained"
-                    color="primary"
-                    size="large"
-                    href="/"
-                    target="_blank"
-                  >
-                    CALCULATOR
-                  </Button>
-                  <Button
-                    className="bg-green-400 hover:bg-green-100 py-4 px-8 text-green-900 font-bold"
-                    variant="contained"
-                    color="primary"
-                    size="large"
-                    href="/"
-                    target="_blank"
-                  >
-                    GUIA DE USO
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <Header2/>
         <h1 className="flex text-2xl md:text-2xl font-bold p-10 border-b-8 border-black gap-4 items-center">
           <RiPlantFill />
           Sobre
         </h1>
 
         <div className="pl-10 pt-10 prose prose-sm md:prose-md">
-        
           <h2>O que é</h2>
           <p>
             A Calculadora de Impactos do Desmatamento é uma ferramenta de valoração dos danos sociais e ambientais causados pelo desflorestamento da Amazônia. A ferramenta utiliza uma fórmula econômica que relaciona os efeitos esperados no ambiente e na sociedade com variáveis como a região analisada, a legalidade do desmatamento e a prioridade de conservação da área. 

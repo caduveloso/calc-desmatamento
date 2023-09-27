@@ -45,7 +45,7 @@ export default function Home() {
                   variant="contained"
                   color="primary"
                   size="large"
-                  href="/"
+                  href="/guias-de-uso"
                   target="_self"
                 >
                   GUIA DE USO
