@@ -77,7 +77,7 @@ export default function Calculate() {
           </div>
         </div>
 
-        <h1 className="flex text-2xl md:text-4xl font-bold p-10 border-b-8 border-black gap-4 items-center">
+        <h1 className="flex text-2xl md:text-2xl font-bold p-10 border-b-8 border-black gap-4 items-center">
           <RiPlantFill />
           Calculadora
         </h1>

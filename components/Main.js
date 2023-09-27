@@ -45,7 +45,7 @@ export default function Home() {
                   variant="contained"
                   color="primary"
                   size="large"
-                  href="/calculator"
+                  href="/"
                   target="_self"
                 >
                   GUIA DE USO
@@ -63,7 +63,7 @@ export default function Home() {
                   variant="contained"
                   color="primary"
                   size="large"
-                  href="/calculator"
+                  href="/calculadora"
                   target="_self"
                 >
                   CALCULADORA
@@ -73,20 +73,20 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="flex text-2xl md:text-4xl font-bold p-10 border-b-8 border-black gap-4 items-center">
+        <h1 className="flex text-2xl md:text-2xl font-bold p-10 border-b-8 border-black gap-4 items-center">
           <RiPlantFill />
           Funções da Calculadora
         </h1>
 
         <div className="flex flex-col md:flex-row mx-0 md:mx-auto pt-0 justify-between items-center gap-10 md:gap-0">
           <div className="w-full md:w-1/2 p-10 md:border-r-8 border-black">
-            <div className="mb-4 text-xl">
+            <div className="mb-4 prose prose-md">
               <p>
                 A Calculadora de Impactos do Desmatamento pode ser utilizada
                 para três finalidades principais:
               </p>
               <div className="mt-4">
-                <ul className="flex flex-col gap-6 pl-4 border-l-2 border-black">
+                <ul className="flex flex-col gap-6 pl-4 border-l-0 border-black">
                   <li>
                     1. Estimar valores de danos ambientais para apoiar a
                     definição de compensações e indenizações;
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="flex text-2xl md:text-4xl font-bold p-10 border-t-8 border-black gap-4 items-center">
+        <h1 className="flex text-2xl md:text-2xl font-bold p-10 border-t-8 border-black gap-4 items-center">
           <RiPlantFill /> Entenda os impactos do desmatamento
         </h1>
 
@@ -132,7 +132,7 @@ export default function Home() {
                     Restauração
                   </div>
                 </div>
-                <div className="text-left px-6 mx-auto text-2xl mt-4">
+                <div className="text-left px-6 mx-auto prose prose-md mt-4">
                   Refere-se aos gastos necessários para implementar os métodos
                   necessários para restaurar o meio ambiente e promover o
                   bem-estar humano que foi afetado.
@@ -146,7 +146,7 @@ export default function Home() {
                     Serviços Ecossistêmicos
                   </div>
                 </div>
-                <div className="text-left px-6 mx-auto text-2xl mt-4 mb-8">
+                <div className="text-left px-6 mx-auto prose prose-md mt-4 mb-8">
                   As consequências do desmatamento incluem a perda de vários
                   benefícios, tanto econômicos quanto não econômicos. Essas
                   perdas são, primeiramente, calculadas com base nas opções
