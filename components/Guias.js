@@ -52,7 +52,7 @@ export default function Calculate() {
         </h1>
 
         <div className="flex w-full md:w-2/3 pb-44 md:h-auto border-black">
-          <div className="mb-0 text-xl">
+          <div className="mb-0 text-xl prose">
             <h3 className="p-4 font-bold">Guia de uso</h3>
             <Accordion expanded={expandedState.accordion1} onChange={() => handleToggle('accordion1')}>
               <AccordionSummary
@@ -66,9 +66,9 @@ export default function Calculate() {
                 <Typography variant="body2" component="div">
                   <span>Você pode incluir algumas informações sobre o contexto da sua pesquisa para que a calculadora estime o valor dos impactos de forma mais precisa. <br /> A localização afeta variáveis como:</span>
                   <ul className="flex flex-col gap-1 my-4">
-                    <li>&#8226; Densidade de carbono por hectare </li>
-                    <li>&#8226; Custo do frete para restauração</li>
-                    <li>&#8226;  Riqueza de espécies</li>
+                    <li>Densidade de carbono por hectare </li>
+                    <li>Custo do frete para restauração</li>
+                    <li>Riqueza de espécies</li>
                   </ul>
                   <span>Caso não tenha informações específicas, você ainda pode realizar a pesquisa. Nesse caso, serão incluídos automaticamente valores médios de contexto e impacto. </span>
                 </Typography>
@@ -87,6 +87,7 @@ export default function Calculate() {
                   <span>Uma Área de Preservação Permanente (APP) é uma área protegida, coberta ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas, conforme definição da Lei n. 12.651/2012.</span>
                   <br />
                   <span>Com o propósito de estabelecer uma ideia de equivalência ecológica, a calculadora de desmatamento utiliza um multiplicador de 3,8 vezes o valor do dano quando a área analisada corresponde a uma Área de Preservação Permanente (APP), considerando sua extrema importância (Gasparinetti et al, 2017).</span>
+                  <br />
                   <br />
                   <span className="leading-4"><small> Gasparinetti, P.; Burner, A.; Vilela, T (2017) Definição de níveis de equivalência ecológica para a lei de compensação florestal do DF segundo o método de experimento de escolha. Conservação Estratégica. Série Técnica- Edição 51.</small></span>
                 </Typography>
