@@ -5,8 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <Main />
-        <NextScript />
+        <div className="bg-fixed bg-screen bg-contain bg-repeat-x pb-10" style={{ backgroundImage: `url("/images/bg1.png")` }}>
+          <Main />
+          <NextScript />
+        </div>
       </body>
     </Html>
   )
