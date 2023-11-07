@@ -81,12 +81,6 @@ export default function Calculate() {
             <br/>
             <br/>
 
-            <strong>Edição de vídeo</strong>
-            <br/>
-            João Diel Bastos
-            <br/>
-            <br/>
-
             <strong>Roteiros</strong>
             <br/>
             Priscila Crispi

@@ -80,22 +80,22 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row mx-0 md:mx-auto pt-0 justify-between items-center gap-10 md:gap-0">
           <div className="w-full md:w-1/2 p-10 md:border-r-8 border-black">
-            <div className="mb-4 prose prose-lg">
+            <div className="mb-4 prose prose-lg leading-normal">
               <p>
                 A Calculadora de Impactos do Desmatamento pode ser utilizada
                 para três finalidades principais:
               </p>
-              <div className="mt-4">
-                <ul className="flex flex-col gap-6 pl-4 border-l-0 border-black">
-                  <li>
+              <div className="">
+                <ul className="flex flex-col pl-4 border-l-0 border-black">
+                  <li className="mb-0 font-bold">
                     Estimar valores de danos ambientais para apoiar a
                     definição de compensações e indenizações;
                   </li>
-                  <li>
+                  <li className="mb-0 font-bold">
                     Estimar níveis eficientes de investimentos para
                     planejamento e prevenção de impactos;
                   </li>
-                  <li>
+                  <li className="mb-0 font-bold">
                     Estimar receitas potenciais que o Estado poderia ter com
                     seus ativos florestais.
                   </li>
@@ -133,9 +133,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-left px-6 mx-auto prose prose-lg mt-4">
-                  Refere-se aos gastos necessários para implementar os métodos
+                  Refere-se aos gastos de implementação dos métodos
                   necessários para restaurar o meio ambiente e promover o
-                  bem-estar humano que foi afetado.
+                  bem-estar humano que foi afetado. O custo de restauração é
+                  aplicado sempre que o desmatamento é ilegal.
                 </div>
               </div>
 
@@ -147,18 +148,15 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-left px-6 mx-auto prose prose-lg mt-4 mb-8">
-                  As consequências do desmatamento incluem a perda de vários
-                  benefícios, tanto econômicos quanto não econômicos. Essas
-                  perdas são, primeiramente, calculadas com base nas opções
-                  alternativas de uso da terra disponíveis para os
-                  proprietários. O custo de oportunidade do desmatamento inclui
-                  a perda de recursos madeireiros e não madeireiros da floresta
-                  e , além disso, a perda de serviços culturais e recreativos,
-                  que não são comercializados diretamente no mercado. A perda de
-                  serviços ecossistêmicos, como sequestro de carbono, regulação
-                  da água e controle da erosão, proporcionados pela floresta em
-                  pé, tem um impacto significativo no bem-estar da sociedade
-                  como um todo.
+                O desmatamento resulta na perda de benefícios econômicos e 
+                não econômicos. Estas perdas são calculadas considerando 
+                as alternativas de uso da terra. O custo de oportunidade 
+                do desmatamento abrange a perda de recursos madeireiros e 
+                não madeireiros, bem como serviços culturais e recreativos
+                 que não têm preço de mercado direto. O desmatamento afeta
+                 serviços ecossistêmicos essenciais, 
+                 como sequestro de carbono e regulação da água, 
+                 impactando o bem-estar da sociedade.
                 </div>
               </div>
             </div>
