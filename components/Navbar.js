@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <div className="container-lg sticky top-0 flex py-4 px-10 bg-black bg-opacity-90 z-10">
+    <div className="container-lg sticky top-0 flex py-6 px-10 bg-black bg-opacity-90 z-10">
       <div className="container mx-auto w-full flex-none md:flex justify-between items-center">
-        <div className="justify-start items-end">
+        <div className="justify-start items-end pl-2">
           {" "}
           {/*Left area*/}
           <div className="flex items-center gap-4">
@@ -26,7 +26,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="justify-start lg:justify-end items-end md:pt-0 hidden md:flex">
+        <div className="justify-start lg:justify-end items-end md:pt-0 hidden md:flex pr-10">
           {" "}
           {/*Right area*/}
           <ul className="flex gap-6 text-gray-100 text-xs tracking-widest font-semibold uppercase">
