@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="-mt-40">
+      <main className="mt-0">
         <div
           className="pt-32 bg-cover bg-center px-0 lg:px-0 bg-black"
           style={{ backgroundImage: `url("/images/img1.webp")` }}

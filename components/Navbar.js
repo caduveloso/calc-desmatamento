@@ -3,8 +3,8 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 flex py-4 px-10 bg-black bg-opacity-90 z-10">
-      <div className="w-full flex-none md:flex justify-between items-center">
+    <div className="container-lg sticky top-0 flex py-4 px-10 bg-black bg-opacity-90 z-10">
+      <div className="container mx-auto w-full flex-none md:flex justify-between items-center">
         <div className="justify-start items-end">
           {" "}
           {/*Left area*/}
